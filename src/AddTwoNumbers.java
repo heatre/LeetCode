@@ -13,7 +13,7 @@
 
 
 
-public class AddTwoNumbers2
+public class AddTwoNumbers
 {
 	public class ListNode//内部类，定义链表数据结构
 	{
@@ -51,7 +51,7 @@ public class AddTwoNumbers2
 
 	public static void main(String[] args)
 	{
-		AddTwoNumbers2 adn = new AddTwoNumbers2();
+		AddTwoNumbers adn = new AddTwoNumbers();
 		ListNode l1 = adn.new ListNode(0);
 		ListNode l2 = adn.new ListNode(0);
 

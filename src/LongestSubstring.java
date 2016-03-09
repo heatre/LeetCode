@@ -8,7 +8,7 @@
  * @author Swin
  *
  */
-public class LongestSubstring3
+public class LongestSubstring
 {
 // 未通过的方法
 //	public int lengthOfLongestSubstrin1(String s) 
@@ -52,7 +52,7 @@ public class LongestSubstring3
 
 		public static void main(String[] args)
 		{
-			LongestSubstring3 ls = new LongestSubstring3();
+			LongestSubstring ls = new LongestSubstring();
 			String s = "qpxrjxkltzyz";
 			int n= ls.lengthOfLongestSubstring(s);
 			System.out.println(n);

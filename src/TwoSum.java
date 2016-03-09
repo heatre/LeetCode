@@ -12,7 +12,7 @@ import java.util.HashMap;
  * @author Swin
  * 使用hashmap的算法复杂度为O（n）
  */
-public class TwoSum1
+public class TwoSum
 {
 	public int[] twoSum(int[] nums, int target) 
 	{
@@ -40,7 +40,7 @@ public class TwoSum1
 	{
        int [] nums = {2, 7, 11, 15};
        int target = 9;
-       TwoSum1 ts = new TwoSum1();
+       TwoSum ts = new TwoSum();
        int [] res = ts.twoSum(nums,target);
        for(int i = 0;i<res.length;++i)
        {
