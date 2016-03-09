@@ -1,5 +1,4 @@
 
-
 /**
  * 2. Add Two Numbers
  * You are given two linked lists representing two non-negative numbers. 
@@ -36,6 +35,7 @@ public class AddTwoNumbers2
 		int carry = 0;
 		int tmp = 0;
 		while(l1 != null || l2 != null || carry != 0)//关键点，两个链表内元素个数可能不同。
+
 		{
 			tmp = (l1 != null ? l1.val:0) + (l2 != null ? l2.val:0)+carry;
 			sum = tmp%10;
