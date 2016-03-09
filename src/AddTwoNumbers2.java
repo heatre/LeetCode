@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.List;
 
-import com.sun.org.apache.xerces.internal.impl.dv.ValidatedInfo;
 
 /**
  * 2. Add Two Numbers
